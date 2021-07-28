@@ -1,0 +1,157 @@
+
+<style>
+
+.upperPanel{
+    display: inline-block;
+    text-align: right;
+}
+
+.leftText{
+    display: inline-block;
+}
+
+.upperPanel:hover{
+    text-decoration: underline;
+}
+.upperPanelDiv{
+    
+    text-align: right;
+}
+
+.rightDiv{
+    text-align: right;
+}
+.leftDiv{
+    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  scale: 35%;
+  top: 30px;
+}
+
+.container {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.input {
+    
+    top: 50%;
+    
+}
+.buttons {
+    
+    top: 55%;
+  
+    
+}
+
+.button{
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    color: rgb(119, 119, 119);
+}
+.button:hover{
+    border-radius: 4px;
+    border: 2px solid rgb(158, 156, 156) ;
+    
+}
+
+.searchbox{
+    width: 500px;
+    height: 35px;
+    }
+
+    .searchbox:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .button{
+        display: inline block;
+    }
+
+    #footer {
+   position:absolute;
+   bottom:10;
+   width:100%;
+   height:60px;
+   
+   display: inline block;
+}
+
+body { min-height: 100vh; }
+
+
+.split-para      { display:block;margin:px;}
+.split-para span { display:block;float:right;width:7%;margin-left:5px;}
+
+li {
+  float: right;
+  color:black;
+    
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+</style>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>upper panel</title>
+</head>
+
+
+
+<body>
+    <ul>
+        <li > Home </li>
+        <li > News</li>
+     
+      </ul>
+
+
+    <div>    
+        <img src="https://michalosman.github.io/google-homepage/images/google-logo.png" alt="A business cat wearing a necktie." class="container">
+    </div>
+    <div class="container input"> 
+        <input class="searchbox" type="text">
+    </div>
+    <div class="container buttons">
+        <button class="button">Google Search</button>
+        <button class="button">I'm feeling lucky!</button>
+    </div>
+
+    <div id="footer">
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+          </ul> 
+       
+           
+        
+    </div>
+    
+</body>
+
+</html>
